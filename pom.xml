@@ -50,6 +50,12 @@
 		</dependency>
 
 		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.17.2</version>
+		</dependency>
+
+		<dependency>
 			<groupId>com.itextpdf</groupId>
 			<artifactId>itext7-core</artifactId>
 			<version>${itext.version}</version>
@@ -75,6 +81,12 @@
 			<groupId>org.kordamp.ikonli</groupId>
 			<artifactId>ikonli-feather-pack</artifactId>
 			<version>12.3.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>1.5.16</version>
 		</dependency>
 
 		<dependency>
